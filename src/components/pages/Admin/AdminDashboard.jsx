@@ -8,10 +8,10 @@ const AdminDashboard = () => {
   return (
     <section className=' flex w-[100%] h-[100%] '>
         <article className=' flex w-[100%] h-[100%]  '>
-            <main className=' flex w-[20%] h-[100%]  '>
+            <main className=' flex w-[20%] h-[100%] bg-orange-400   '>
                 <AdminMenu/>
             </main>
-            <main className=' flex w-[80%] h-[100%]'>
+            <main className=' flex w-[80%] h-[100%] bg-green-300'>
                 <Outlet/>
                 {/* <ul className=' flex flex-col w-[30%] h-[40%] bg-orange-500 my-20 mx-10 justify-center px-6 gap-4 rounded-xl'>
                     <li className=' flex text-xl'>Admin name : {auth?.user?.name}</li>
